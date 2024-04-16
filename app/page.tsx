@@ -17,18 +17,20 @@ export default function Home() {
       <MaxWidthWrapper className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
         <div className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
           <p className="text-sm font-semibold text-gray-700">
-            Try Convo for Free
+            Try Email Digest for Free
           </p>
         </div>
 
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-          <span className="text-blue-600">Speech</span> Focused Language
-          Learning
+          <span className="text-blue-600">Never</span> Read An Email Again
         </h1>
 
         <p className="mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl">
-          Convo helps you improve your spoken fluency with the help of an AI
-          tutor.
+          Get bite sized summaries and tasks from your inbox.
+        </p>
+
+        <p className="mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl">
+          Transform your inbox chaos into calendar clarity with a single click.
         </p>
 
         <Link
@@ -41,7 +43,7 @@ export default function Home() {
           )}
           href={"/dashboard"}
         >
-          Start Speaking Now
+          Stop Reading Emails
         </Link>
       </MaxWidthWrapper>
 
@@ -92,6 +94,72 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      
+      {/* Scenarios */}
+      <div className="mx-auto mt-20 flex max-w-5xl flex-col">
+            <div className="mb-6 px-6 lg:px-8">
+              <div className="mx-auto max-w-2xl sm:text-center">
+                <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
+                  Declutter your inbox
+                </h2>
+                <p className="mt-4 text-lg text-gray-600">
+                  <s>Read your emails</s> the way you read your tweets: swiftly, easily, and stress-free
+                </p>
+              </div>
+            </div>
+            {/* steps */}
+
+            <div className="flex items-center justify-center">
+              <div className="flex flex-col gap-6 md:flex-row">
+                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
+                  <CardTitle>Decide what's important</CardTitle>
+                  <CardDescription className="mb-3 text-center">
+                   Glance over your the digest we give you to decide what's worth attending to
+                  </CardDescription>
+                  <Image
+                    src="/coffee.webp"
+                    alt="cafe scenario"
+                    width={128}
+                    height={128}
+                    quality={100}
+                  />
+                </Card>
+                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
+                  <CardTitle>Know what you need to do</CardTitle>
+                  <CardDescription className="mb-3 text-center">
+                  Without opening a single email, we tell you what the email needs from you
+                  </CardDescription>
+                  <Image
+                    src="/taxi.webp"
+                    alt="cafe scenario"
+                    width={128}
+                    height={128}
+                    quality={100}
+                  />
+                </Card>
+
+                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
+                  <CardTitle>Stay on top of your tasks</CardTitle>
+                  <CardDescription className="mb-3 text-center">
+                    Add tasks from your email to your calendar in a single click
+                  </CardDescription>
+                  <Image
+                    src="/schedule.webp"
+                    alt="cafe scenario"
+                    width={128}
+                    height={128}
+                    quality={100}
+                  />
+                </Card>
+              </div>
+            </div>
+            <div className="mb-6 px-6 lg:px-8">
+              <div className="mx-auto max-w-2xl text-center">
+                <p className="mt-4 text-lg text-gray-600">and many more...</p>
+              </div>
+            </div>
+          </div>
 
       {/* Features */}
       <MaxWidthWrapper>
@@ -157,72 +225,6 @@ export default function Home() {
                 </div>
               </li>
             </ol>
-          </div>
-
-          {/* Scenarios */}
-          <div>
-            <div className="mb-6 px-6 lg:px-8">
-              <div className="mx-auto max-w-2xl sm:text-center">
-                <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
-                  Practice in Real Life Scenarios
-                </h2>
-                <p className="mt-4 text-lg text-gray-600">
-                  Get help if you make a mistake and guidance on saying
-                  something in your target language.
-                </p>
-              </div>
-            </div>
-            {/* steps */}
-
-            <div className="flex items-center justify-center">
-              <div className="flex flex-col gap-6 md:flex-row">
-                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
-                  <CardTitle>At the Cafe</CardTitle>
-                  <CardDescription className="mb-3 text-center">
-                    Learn how to order drinks and snacks
-                  </CardDescription>
-                  <Image
-                    src="/coffee.webp"
-                    alt="cafe scenario"
-                    width={128}
-                    height={128}
-                    quality={100}
-                  />
-                </Card>
-                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
-                  <CardTitle>Getting A Taxi</CardTitle>
-                  <CardDescription className="mb-3 text-center">
-                    Learn how to navigate and get directions
-                  </CardDescription>
-                  <Image
-                    src="/taxi.webp"
-                    alt="cafe scenario"
-                    width={128}
-                    height={128}
-                    quality={100}
-                  />
-                </Card>
-
-                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
-                  <CardTitle>Social Activities</CardTitle>
-                  <CardDescription className="mb-3 text-center">
-                    Learn how to make plans and catch up with friends
-                  </CardDescription>
-                  <Image
-                    src="/schedule.webp"
-                    alt="cafe scenario"
-                    width={128}
-                    height={128}
-                    quality={100}
-                  />
-                </Card>
-              </div>
-            </div>
-            <div className="mb-6 px-6 lg:px-8">
-              <div className="mx-auto max-w-2xl text-center">
-                <p className="mt-4 text-lg text-gray-600">and many more...</p>
-              </div>
-            </div>
           </div>
 
           {/* Powered By */}
