@@ -25,13 +25,13 @@ const Navbar = () => {
           >
             <Image
               src="/logo.png"
-              alt="convo logo"
+              alt="Email Digest logo"
               width={50}
               height={50}
               quality={100}
               className="w-7 h-7"
             />
-            <span className="text-2xl font-semibold">Convo</span>
+            <span className="text-2xl font-semibold">Email Digest</span>
           </Link>
           <div className="flex gap-1 sm:gap-4 items-center">
             {!isUserSignedIn ? (
@@ -51,15 +51,7 @@ const Navbar = () => {
             <div className="hidden items-center space-x-4 sm:flex">
               {!isUserSignedIn ? (
                 <>
-                  <Link
-                    href="/pricing"
-                    className={buttonVariants({
-                      variant: "ghost",
-                      size: "sm",
-                    })}
-                  >
-                    Pricing
-                  </Link>
+                  
                   <Link
                     className={buttonVariants({
                       variant: "ghost",

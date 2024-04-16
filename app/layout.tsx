@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Convo | Language Learning",
+  title: "Email Digest | Language Learning",
   description: "Speech focused language learning",
 };
 
