@@ -26,7 +26,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl">
-          Get bite sized summaries and tasks from your inbox.
+          Digest bite-sized summaries and tasks from your inbox.
         </p>
 
         <p className="mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl">
