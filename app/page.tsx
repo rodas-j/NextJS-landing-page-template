@@ -41,6 +41,12 @@ export default function Home() {
         >
           Stop Reading Emails
         </Link>
+        <Image
+          src="/Email Digest UI.png"
+          width={800}
+          height={800}
+          alt="Hero Image"
+          className="mt-10" />
       </MaxWidthWrapper>
 
       
