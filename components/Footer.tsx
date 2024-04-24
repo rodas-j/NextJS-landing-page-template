@@ -8,13 +8,21 @@ export default function Footer() {
           <Link href="/">
             <span className="text-2xl font-semibold">Email Digest</span>
           </Link>
+          <div className="text-right">
+            <Link href="/terms" className="mx-12">
+              Terms of Service
+            </Link>
+            <Link href="/privacy">
+            Privacy Policy
+            </Link>
+          </div>
         </div>
         <hr className="my-2 text-muted-foreground sm:mx-auto " />
         <span className="block text-sm text-muted-foreground sm:text-center">
           © {new Date().getFullYear()}{" "}
           <a
             target="_blank"
-            href="https://tryEmail Digest.vercel.app/"
+            href="https://tryEmailDigest.vercel.app/"
             className="hover:underline"
           >
             Email Digest
