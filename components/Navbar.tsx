@@ -24,7 +24,7 @@ const Navbar = () => {
             className="flex z-40 justify-center items-center gap-1"
           >
             <Image
-              src="/logo.png"
+              src="/email-digest-logo-48.png"
               alt="Email Digest logo"
               width={50}
               height={50}
