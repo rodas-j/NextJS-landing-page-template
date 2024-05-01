@@ -64,7 +64,7 @@ export default function Privacy() {
           <li>How We Use Personal Data</li>
           <li>Information Automatically Collected</li>
           <li>Limited Use</li>
-          <li>Third-Party Services & Third Party Services Privacy Policies</li>
+          <li>Third Party Data Sharing</li>
           <li>Choice</li>
           <li>Storage and Security</li>
           <li>Use of the Services By Minors</li>
@@ -228,8 +228,14 @@ export default function Privacy() {
         </p>
         <p>
           Email Digest's use and transfer to any other app of information
-          received from Google APIs will adhere to <a className="underline" href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes">Google API Services User Data
-          Policy</a>, including the Limited Use requirements.{" "}
+          received from Google APIs will adhere to{" "}
+          <a
+            className="underline"
+            href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes"
+          >
+            Google API Services User Data Policy
+          </a>
+          , including the Limited Use requirements.{" "}
         </p>
         <p>
           Email Digest processes the content of the email thread you open while
@@ -268,27 +274,17 @@ export default function Privacy() {
         </p>
         <p>‍</p>
         <p>
-          <strong>
-            5. Third-Party Services & Third Party Services Privacy Policies
-          </strong>
+          <strong>5. Third Party Data Sharing</strong>
         </p>
         <p>
-          This Privacy Policy does not address, and we are not responsible for,
-          the privacy, information, or other practices of any third parties,
-          including any third party operating any website or service to which
-          the Services link. The inclusion of a link on the Services does not
-          imply endorsement of the linked site or service by us or by our
-          affiliates.{" "}
-        </p>
-        <p>
-          In addition, we are not responsible for the information collection,
-          use, disclosure, or security policies or practices of other
-          organizations, such as Amazon, Facebook, Apple, Google, Microsoft,
-          RIM, or any other app developer, app provider, social media platform
-          provider, operating system provider, wireless service provider, or
-          device manufacturer, including with respect to any Personal
-          Information that you disclose to other organizations through or in
-          connection with the Apps or our Social Media Pages.
+          We might have to use third parties to process your data for specific
+          usage such as AI capabilities. When sharing your data with those third
+          parties, we will explicitly list them on this privacy policy page and link
+          their privacy policies for you to know how they will be using your
+          data. We only work with third parties that respect your privacy and
+          won’t use your data for commercial purposes without your explicit
+          consent. By signing in our services, you explicitly consent to the
+          privacy policies of those third parties.
         </p>
         <p>‍</p>
         <p>
