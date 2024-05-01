@@ -227,35 +227,50 @@ export default function Privacy() {
           <strong>4. Limited Use</strong>
         </p>
         <p>
+          Email Digest's use and transfer to any other app of information
+          received from Google APIs will adhere to <a className="underline" href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes">Google API Services User Data
+          Policy</a>, including the Limited Use requirements.{" "}
+        </p>
+        <p>
           Email Digest processes the content of the email thread you open while
           using the add-on. This data is then transmitted to third-party
-          services such as OpenAI or Microsoft Azure to generate
-          summaries and to extract actionable items for an email thread. Email
-          Digest provides greater privacy compared to directly using Chat GPT.
-          This is due to the fact that the prompts you enter in Chat GPT are
-          utilized by OpenAi to train the language model. On the other hand,
-          Email Digest employs the API version of Chat GPT, which adheres to
-          stricter data privacy regulations. Please note that all data
-          transmitted to Chat GPT's completion API endpoint is protected using
-          the Transport Layer Security protocol while in transit. Additionally,
-          any data sent to Chat GPT's completion API endpoint is kept private
-          and used solely by OpenAI to monitor potential misuse. This data is
-          not for developing, improving, or training generalized/
-          non-personalized AI/ML models. Furthermore, all transmitted
-          information is automatically deleted after 30 days for added
-          protection. For more information, please refer to <a className="underline" href="https://openai.com/enterprise-privacy">OpenAI's data usage
-          policy</a>, specifically the section <b>Does OpenAI train its models on my
-          business data?</b>
-          <p> We do not store any email addresses associated with
-          your account unless you log in directly through our website. </p>
-          <p>We don’t store any of your emails in any of our databases.</p> 
-          <p>We <span className="font-semibold">don't</span> use any of your data
-          to develop, improve, or train generalized/non-personalized AI and/or
-          ML models.{" "}</p>
+          services such as OpenAI or Microsoft Azure to generate summaries and
+          to extract actionable items for an email thread. Email Digest provides
+          greater privacy compared to directly using Chat GPT. This is due to
+          the fact that the prompts you enter in Chat GPT are utilized by OpenAi
+          to train the language model. On the other hand, Email Digest employs
+          the API version of Chat GPT, which adheres to stricter data privacy
+          regulations. Please note that all data transmitted to Chat GPT's
+          completion API endpoint is protected using the Transport Layer
+          Security protocol while in transit. Additionally, any data sent to
+          Chat GPT's completion API endpoint is kept private and used solely by
+          OpenAI to monitor potential misuse. This data is not for developing,
+          improving, or training generalized/ non-personalized AI/ML models.
+          Furthermore, all transmitted information is automatically deleted
+          after 30 days for added protection. For more information, please refer
+          to{" "}
+          <a className="underline" href="https://openai.com/enterprise-privacy">
+            OpenAI's data usage policy
+          </a>
+          , specifically the section{" "}
+          <b>Does OpenAI train its models on my business data?</b>
+          <p>
+            {" "}
+            We do not store any email addresses associated with your account
+            unless you log in directly through our website.{" "}
+          </p>
+          <p>We don’t store any of your emails in any of our databases.</p>
+          <p>
+            We <span className="font-semibold">don't</span> use any of your data
+            to develop, improve, or train generalized/non-personalized AI and/or
+            ML models.{" "}
+          </p>
         </p>
         <p>‍</p>
         <p>
-          <strong>5. Third-Party Services & Third Party Services Privacy Policies</strong>
+          <strong>
+            5. Third-Party Services & Third Party Services Privacy Policies
+          </strong>
         </p>
         <p>
           This Privacy Policy does not address, and we are not responsible for,
