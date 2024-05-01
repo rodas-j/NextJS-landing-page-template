@@ -18,8 +18,8 @@ export default function Privacy() {
         <ul>
           <li>
             <p>
-              Visit our website at http://www.emaildigest.app, or any website
-              of ours that links to this privacy notice.{" "}
+              Visit our website at http://www.emaildigest.app, or any website of
+              ours that links to this privacy notice.{" "}
             </p>
           </li>
           <li>
@@ -59,21 +59,24 @@ export default function Privacy() {
         <p>
           <strong>Table of Contents</strong>
         </p>
-        <p>1. What Personal Information Do We Collect?</p>
-        <p>2. How We Use Personal Data</p>
-        <p>3. Information Automatically Collected</p>
-        <p>4. Third-Party Services</p>
-        <p>5. Choice</p>
-        <p>6. Storage and Security</p>
-        <p>7. Use of the Services By Minors</p>
-        <p>8. Account Information</p>
-        <p>9. Jurisdiction and Cross-Border Transfer</p>
-        <p>10. Sensitive Information</p>
-        <p>11. Third-Party Payment Service</p>
-        <p>12. California Residents</p>
-        <p>13. Updates To This Notice</p>
-        <p>14. How Can You Contact Us About This Notice?</p>
-        <p>‍</p>
+        <ul className="list-decimal p-8">
+          <li>What Personal Information Do We Collect?</li>
+          <li>How We Use Personal Data</li>
+          <li>Information Automatically Collected</li>
+          <li>Limited Use</li>
+          <li>Third-Party Services & Third Party Services Privacy Policies</li>
+          <li>Choice</li>
+          <li>Storage and Security</li>
+          <li>Use of the Services By Minors</li>
+          <li>Account Information</li>
+          <li>Jurisdiction and Cross-Border Transfer</li>
+          <li>Sensitive Information</li>
+          <li>Third-Party Payment Service</li>
+          <li>California Residents</li>
+          <li>Updates To This Notice</li>
+          <li>How Can You Contact Us About This Notice?</li>
+        </ul>
+
         <p>
           <strong>1. What Personal Information Do We Collect?</strong>{" "}
         </p>
@@ -103,7 +106,7 @@ export default function Privacy() {
           <strong>2. How We Use Personal Data</strong>
         </p>
         <p>We may use Personal Data for the following purposes:</p>
-        <ul>
+        <ul className="list-disc p-10">
           <li>
             <p>
               To facilitate account creation and authentication and otherwise
@@ -221,7 +224,38 @@ export default function Privacy() {
         </ul>
         <p>‍</p>
         <p>
-          <strong>4. Third-Party Services</strong>
+          <strong>4. Limited Use</strong>
+        </p>
+        <p>
+          Email Digest processes the content of the email thread you open while
+          using the add-on. This data is then transmitted to third-party
+          services such as OpenAI or Microsoft Azure to generate
+          summaries and to extract actionable items for an email thread. Email
+          Digest provides greater privacy compared to directly using Chat GPT.
+          This is due to the fact that the prompts you enter in Chat GPT are
+          utilized by OpenAi to train the language model. On the other hand,
+          Email Digest employs the API version of Chat GPT, which adheres to
+          stricter data privacy regulations. Please note that all data
+          transmitted to Chat GPT's completion API endpoint is protected using
+          the Transport Layer Security protocol while in transit. Additionally,
+          any data sent to Chat GPT's completion API endpoint is kept private
+          and used solely by OpenAI to monitor potential misuse. This data is
+          not for developing, improving, or training generalized/
+          non-personalized AI/ML models. Furthermore, all transmitted
+          information is automatically deleted after 30 days for added
+          protection. For more information, please refer to <a className="underline" href="https://openai.com/enterprise-privacy">OpenAI's data usage
+          policy</a>, specifically the section <b>Does OpenAI train its models on my
+          business data?</b>
+          <p> We do not store any email addresses associated with
+          your account unless you log in directly through our website. </p>
+          <p>We don’t store any of your emails in any of our databases.</p> 
+          <p>We <span className="font-semibold">don't</span> use any of your data
+          to develop, improve, or train generalized/non-personalized AI and/or
+          ML models.{" "}</p>
+        </p>
+        <p>‍</p>
+        <p>
+          <strong>5. Third-Party Services & Third Party Services Privacy Policies</strong>
         </p>
         <p>
           This Privacy Policy does not address, and we are not responsible for,
@@ -243,7 +277,7 @@ export default function Privacy() {
         </p>
         <p>‍</p>
         <p>
-          <strong>5. Choice</strong>
+          <strong>6. Choice</strong>
         </p>
         <p>
           You may opt out from receiving marketing-related emails from us. If
@@ -261,7 +295,7 @@ export default function Privacy() {
         </p>
         <p>‍</p>
         <p>
-          <strong>6. Storage and Security</strong>{" "}
+          <strong>7. Storage and Security</strong>{" "}
         </p>
         <p>
           You use the Service at your own risk. We implement commercially
@@ -282,9 +316,9 @@ export default function Privacy() {
           settings or security measures contained on the Service, or third party
           websites.
         </p>
-        <p>‍We don’t keep personal information, other third parties might.</p>
+        <p>‍</p>
         <p>
-          <strong>7. Use of the Services By Minors</strong>
+          <strong>8. Use of the Services By Minors</strong>
         </p>
         <p>
           Our Service is not directed to children who are under the age of 13.
@@ -294,8 +328,9 @@ export default function Privacy() {
           please contact us and we will endeavor to delete that information from
           our databases.
         </p>
+        <p>‍</p>
         <p>
-          <strong>8. Account Information</strong>{" "}
+          <strong>9. Account Information</strong>{" "}
         </p>
         <p>
           You can log into your user account at any time to review or change the
@@ -303,7 +338,7 @@ export default function Privacy() {
         </p>
         <p>‍</p>
         <p>
-          <strong>9. Jurisdiction and Cross-Border Transfer</strong>
+          <strong>10. Jurisdiction and Cross-Border Transfer</strong>
         </p>
         <p>
           We are located in the United States. We may store and process your
@@ -316,7 +351,7 @@ export default function Privacy() {
         </p>
         <p>‍</p>
         <p>
-          ‍<strong>10. Sensitive Information</strong>
+          ‍<strong>11. Sensitive Information</strong>
         </p>
         <p>
           Unless we request it, we ask that you not send us, and you not
@@ -328,7 +363,7 @@ export default function Privacy() {
         </p>
         <p>‍</p>
         <p>
-          <strong>11. Third-Party Payment Service</strong>
+          <strong>12. Third-Party Payment Service</strong>
         </p>
         <p>
           The Services may provide functionality allowing you to make payments
@@ -342,7 +377,7 @@ export default function Privacy() {
         </p>
         <p>‍</p>
         <p>
-          <strong>12. California Residents</strong>{" "}
+          <strong>13. California Residents</strong>{" "}
         </p>
         <p>
           If you are California resident and would like to request and obtain
@@ -366,7 +401,7 @@ export default function Privacy() {
         </p>
         <p>‍</p>
         <p>
-          ‍<strong>13. Updates To This Notice</strong>{" "}
+          ‍<strong>14. Updates To This Notice</strong>{" "}
         </p>
         <p>
           We may update this privacy notice from time to time. The updated
@@ -375,7 +410,7 @@ export default function Privacy() {
         </p>
         <p>‍</p>
         <p>
-          <strong>14. How Can You Contact Us About This Notice?</strong>{" "}
+          <strong>15. How Can You Contact Us About This Notice?</strong>{" "}
         </p>
         <p>
           If you have questions or comments about this notice, you may email us
