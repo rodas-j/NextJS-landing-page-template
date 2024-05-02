@@ -227,7 +227,7 @@ export default function Privacy() {
           <strong>4. Limited Use</strong>
         </p>
         <p>
-          Email Digest's use and transfer to any other app of information
+          Email Digest&aposs use and transfer to any other app of information
           received from Google APIs will adhere to{" "}
           <a
             className="underline"
@@ -246,17 +246,17 @@ export default function Privacy() {
           the fact that the prompts you enter in Chat GPT are utilized by OpenAi
           to train the language model. On the other hand, Email Digest employs
           the API version of Chat GPT, which adheres to stricter data privacy
-          regulations. Please note that all data transmitted to Chat GPT's
+          regulations. Please note that all data transmitted to Chat GPT&aposs
           completion API endpoint is protected using the Transport Layer
           Security protocol while in transit. Additionally, any data sent to
-          Chat GPT's completion API endpoint is kept private and used solely by
-          OpenAI to monitor potential misuse. This data is not for developing,
-          improving, or training generalized/ non-personalized AI/ML models.
-          Furthermore, all transmitted information is automatically deleted
-          after 30 days for added protection. For more information, please refer
-          to{" "}
+          Chat GPT&aposs completion API endpoint is kept private and used solely
+          by OpenAI to monitor potential misuse. This data is not for
+          developing, improving, or training generalized/ non-personalized AI/ML
+          models. Furthermore, all transmitted information is automatically
+          deleted after 30 days for added protection. For more information,
+          please refer to{" "}
           <a className="underline" href="https://openai.com/enterprise-privacy">
-            OpenAI's data usage policy
+            OpenAI&aposs data usage policy
           </a>
           , specifically the section{" "}
           <b>Does OpenAI train its models on my business data?</b>
@@ -267,9 +267,9 @@ export default function Privacy() {
           </p>
           <p>We don’t store any of your emails in any of our databases.</p>
           <p>
-            We <span className="font-semibold">don't</span> use any of your data
-            to develop, improve, or train generalized/non-personalized AI and/or
-            ML models.{" "}
+            We <span className="font-semibold">don&apost</span> use any of your
+            data to develop, improve, or train generalized/non-personalized AI
+            and/or ML models.{" "}
           </p>
         </p>
         <p>‍</p>
@@ -279,10 +279,10 @@ export default function Privacy() {
         <p>
           We might have to use third parties to process your data for specific
           usage such as AI capabilities. When sharing your data with those third
-          parties, we will explicitly list them on this privacy policy page and link
-          their privacy policies for you to know how they will be using your
-          data. We only work with third parties that respect your privacy and
-          won’t use your data for commercial purposes without your explicit
+          parties, we will explicitly list them on this privacy policy page and
+          link their privacy policies for you to know how they will be using
+          your data. We only work with third parties that respect your privacy
+          and won’t use your data for commercial purposes without your explicit
           consent. By signing in our services, you explicitly consent to the
           privacy policies of those third parties.
         </p>
